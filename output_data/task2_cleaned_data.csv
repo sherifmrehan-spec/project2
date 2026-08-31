@@ -4,9 +4,9 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9231,1053,523,2024-02-04,2024-02-16,Database,Adam,Shafik,9.0,Heliopolis,Active,2024-01-03,Footsteps in the Dust,Laila Shokry,Historical,276,2018.0,Oasis Books
 9129,1032,513,2025-06-21,2025-06-29,Database,Nada,Zaki,7.0,Nasr City,Active,2025-10-19,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9370,1079,511,2025-11-11,2025-12-03,Database,Rana,Osman,8.0,Shubra,Active,2024-10-27,Winter in Alexandria,Farida Anwar,Historical,117,2016.0,Nile Press
-9082,1010,528,2025-11-11,2025-11-18,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,The Glass Beehive,Mona Kholoussy,Nature,114,2010.0,Delta House
+9082,1010,528,2025-11-11,2025-11-18,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,The Glass Beehive,Mona Kholoussy,Nature,114,2010.0,Delta House
 9238,1057,513,2024-03-28,2024-04-08,Database,Ahmed,Fahmy,8.0,Heliopolis,Active,2024-01-12,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
-9012,1010,501,2025-02-17,,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
+9012,1010,501,2025-02-17,,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
 9127,1024,506,2025-06-13,,Database,Youssef,Hegazy,8.0,Nasr City,inactive,2024-01-04,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
 9020,1016,506,2024-04-15,2024-05-04,Database,Dina,Rashad,8.0,Maadi,Active,2023-04-24,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
 9208,1044,525,2024-07-10,2024-08-01,Database,Sherif,Saleh,7.0,Heliopolis,active,2024-02-19,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
@@ -52,7 +52,7 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9043,1005,505,2024-01-26,2024-02-04,Database,Youssef,Halim,9.0,Maadi,Active,2024-05-05,Letters to the Nile,Aya Hafez,Historical,216,2024.0,Oasis Books
 9187,1034,502,2024-08-11,,Database,Aya,Wahba,9.0,Nasr City,Active,2025-01-22,Desert Compass,Amina Darwish,Adventure,109,2018.0,Delta House
 9269,1054,507,2025-01-26,2025-01-31,Database,Retaj,Fahmy,6.0,Heliopolis,Inactive,2024-03-21,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
-9056,1010,519,2025-07-11,2025-07-27,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
+9056,1010,519,2025-07-11,2025-07-27,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9057,1020,519,2025-02-03,,Database,Rana,Fouad,6.0,Maadi,Active,2025-12-04,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9140,1034,513,2025-03-06,2025-04-02,Database,Aya,Wahba,9.0,Nasr City,Active,2025-01-22,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9209,1058,525,2024-11-22,2024-12-12,Database,Lina,Mansour,8.0,Heliopolis,active,2025-07-20,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
@@ -91,7 +91,7 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9333,1072,520,2025-06-03,2025-06-08,Database,Seif,Zaki,9.0,Zamalek,Active,2025-10-21,The Copper Telescope,Jasmine Wahdan,Science Fiction,136,2009.0,Oasis Books
 9188,1023,507,2025-05-11,2025-06-08,Database,Hassan,Rashad,8.0,Nasr City,Inactive,,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9371,1079,528,2025-04-22,2025-05-02,Database,Rana,Osman,8.0,Shubra,Active,2024-10-27,The Glass Beehive,Mona Kholoussy,Nature,114,2010.0,Delta House
-9036,1010,515,2024-11-27,2024-12-24,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Songs of the Oasis,Hoda Bakry,Poetry,316,2022.0,Cairo Young Readers
+9036,1010,515,2024-11-27,2024-12-24,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Songs of the Oasis,Hoda Bakry,Poetry,316,2022.0,Cairo Young Readers
 9163,1034,531,2025-12-28,2026-01-02,Database,Aya,Wahba,9.0,Nasr City,Active,2025-01-22,Voices in the Library,Samir Zohdy,Friendship,272,2018.0,Oasis Books
 9091,1008,525,2024-06-03,2024-06-12,Database,Ziad,Saleh,8.0,Maadi,active,2025-10-28,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
 9092,1019,507,2025-03-20,2025-03-27,Database,Mostafa,Wahba,6.0,Maadi,Inactive,2024-07-20,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
@@ -121,7 +121,7 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9241,1059,519,2025-01-04,2025-01-11,Database,Lina,Halim,7.0,Heliopolis,Active,2024-01-06,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9172,1030,513,2025-05-04,2025-05-26,Database,Reem,Osman,,Nasr City,Active,2025-04-01,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9193,1034,519,2024-09-15,2024-10-01,Database,Aya,Wahba,9.0,Nasr City,Active,2025-01-22,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
-9100,1010,513,2025-08-27,2025-09-22,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
+9100,1010,513,2025-08-27,2025-09-22,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9227,1059,513,2024-11-02,2024-11-20,Database,Lina,Halim,7.0,Heliopolis,Active,2024-01-06,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9110,1030,506,2024-05-14,2024-05-30,Database,Reem,Osman,,Nasr City,Active,2025-04-01,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
 9021,1008,501,2025-05-22,2025-05-29,Database,Ziad,Saleh,8.0,Maadi,active,2025-10-28,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
@@ -129,7 +129,7 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9365,1075,501,2024-01-17,2024-02-01,Database,Malak,Fahmy,7.0,Shubra,Active,2024-10-28,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
 9142,1027,516,2024-09-21,2024-10-14,Database,Mostafa,Fouad,9.0,Nasr City,Active,2023-09-25,The Beekeeper's Almanac,Hoda Bakry,Nature,241,2010.0,Nile Press
 9073,1008,513,2025-02-13,,Database,Ziad,Saleh,8.0,Maadi,active,2025-10-28,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
-9024,1010,507,2025-01-27,2025-02-09,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
+9024,1010,507,2025-01-27,2025-02-09,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9067,1008,507,2024-01-05,2024-01-29,Database,Ziad,Saleh,8.0,Maadi,active,2025-10-28,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9324,1061,529,2025-03-12,2025-04-10,Database,Ziad,Fahmy,9.0,zamalek,Inactive,2023-04-27,Riddles of the Red Sea,Sara Tantawy,Mystery,298,,Cairo Young Readers
 9250,1044,507,2025-08-05,2025-08-23,Database,Sherif,Saleh,7.0,Heliopolis,active,2024-02-19,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
@@ -157,7 +157,7 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9358,1077,513,2025-07-09,2025-07-24,Database,Lina,Rashad,6.0,Shubra,Active,2023-07-08,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9297,1065,501,2025-04-14,,Database,Adam,Fahmy,6.0,Zamalek,Active,2025-07-12,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
 9214,1058,525,2024-09-24,,Database,Lina,Mansour,8.0,Heliopolis,active,2025-07-20,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
-9008,1010,520,2025-08-11,,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,The Copper Telescope,Jasmine Wahdan,Science Fiction,136,2009.0,Oasis Books
+9008,1010,520,2025-08-11,,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,The Copper Telescope,Jasmine Wahdan,Science Fiction,136,2009.0,Oasis Books
 9237,1057,513,2024-02-22,,Database,Ahmed,Fahmy,8.0,Heliopolis,Active,2024-01-12,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9303,1061,509,2025-12-23,2026-01-10,Database,Ziad,Fahmy,9.0,zamalek,Inactive,2023-04-27,Marbles and Mirrors,Diaa Sultan,Mystery,221,2011.0,Nile Press
 9338,1072,501,2024-07-16,,Database,Seif,Zaki,9.0,Zamalek,Active,2025-10-21,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
@@ -167,14 +167,14 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9017,1018,519,2024-08-06,2024-08-11,Database,Ahmed,Shafik,9.0,Maadi,Active,2023-01-28,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9266,1053,519,2024-06-01,2024-06-15,Database,Adam,Shafik,9.0,Heliopolis,Active,2024-01-03,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9132,1035,511,2025-02-26,2025-03-13,Database,Karim,Fahmy,9.0,Nasr City,Inactive,2025-06-26,Winter in Alexandria,Farida Anwar,Historical,117,2016.0,Nile Press
-9015,1010,507,2025-09-02,2025-09-14,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
+9015,1010,507,2025-09-02,2025-09-14,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9362,1079,507,2024-03-08,2024-04-07,Database,Rana,Osman,8.0,Shubra,Active,2024-10-27,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9262,1054,524,2024-02-25,2024-03-22,Database,Retaj,Fahmy,6.0,Heliopolis,Inactive,2024-03-21,The Weaver's Daughter,Laila Shokry,Historical,114,2016.0,Cairo Young Readers
 9336,1061,528,2024-04-18,2024-05-15,Database,Ziad,Fahmy,9.0,zamalek,Inactive,2023-04-27,The Glass Beehive,Mona Kholoussy,Nature,114,2010.0,Delta House
 9105,1027,501,2025-03-05,2025-03-25,Database,Mostafa,Fouad,9.0,Nasr City,Active,2023-09-25,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
 9055,1015,525,2025-08-08,2025-08-27,Database,Hamza,Sabry,7.0,Maadi,Inactive,2025-08-13,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
 9183,1027,532,2025-03-28,2025-04-10,Database,Mostafa,Fouad,9.0,Nasr City,Active,2023-09-25,The Last Bookmark,Samir Zohdy,Friendship,337,2017.0,Oasis Books
-9049,1010,514,2025-09-08,,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,The Robot in Row Nine,Galal Mounir,Science Fiction,328,2023.0,Cairo Young Readers
+9049,1010,514,2025-09-08,,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,The Robot in Row Nine,Galal Mounir,Science Fiction,328,2023.0,Cairo Young Readers
 9307,1072,501,2025-06-10,2025-07-09,Database,Seif,Zaki,9.0,Zamalek,Active,2025-10-21,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
 9166,1032,519,2024-01-15,2024-01-24,Database,Nada,Zaki,7.0,Nasr City,Active,2025-10-19,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9155,1028,525,2025-07-12,2025-07-18,Database,Hassan,Adel,9.0,Nasr City,Active,2025-11-12,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
@@ -195,14 +195,14 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9087,1020,511,2025-12-03,2025-12-13,Database,Rana,Fouad,6.0,Maadi,Active,2025-12-04,Winter in Alexandria,Farida Anwar,Historical,117,2016.0,Nile Press
 9006,1018,507,2025-06-26,2025-07-01,Database,Ahmed,Shafik,9.0,Maadi,Active,2023-01-28,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9309,1068,511,2024-11-24,2024-12-12,Database,Layla,Hegazy,8.0,Zamalek,Inactive,2025-02-24,Winter in Alexandria,Farida Anwar,Historical,117,2016.0,Nile Press
-9069,1010,505,2024-06-14,2024-07-10,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Letters to the Nile,Aya Hafez,Historical,216,2024.0,Oasis Books
+9069,1010,505,2024-06-14,2024-07-10,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Letters to the Nile,Aya Hafez,Historical,216,2024.0,Oasis Books
 9216,1050,519,2024-08-07,,Database,Fares,Adel,6.0,Heliopolis,inactive,2025-09-10,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9191,1027,505,2024-08-05,2024-08-29,Database,Mostafa,Fouad,9.0,Nasr City,Active,2023-09-25,Letters to the Nile,Aya Hafez,Historical,216,2024.0,Oasis Books
 9013,1002,501,2024-02-16,2024-02-29,Database,Fares,Saleh,9.0,Maadi,Active,,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
 9061,1016,505,2025-04-28,2025-05-20,Database,Dina,Rashad,8.0,Maadi,Active,2023-04-24,Letters to the Nile,Aya Hafez,Historical,216,2024.0,Oasis Books
 9295,1061,513,2025-12-12,2026-01-01,Database,Ziad,Fahmy,9.0,zamalek,Inactive,2023-04-27,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9363,1079,507,2024-12-23,2025-01-15,Database,Rana,Osman,8.0,Shubra,Active,2024-10-27,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
-9102,1010,502,2024-10-05,,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Desert Compass,Amina Darwish,Adventure,109,2018.0,Delta House
+9102,1010,502,2024-10-05,,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Desert Compass,Amina Darwish,Adventure,109,2018.0,Delta House
 9287,1065,532,2024-04-26,2024-05-23,Database,Adam,Fahmy,6.0,Zamalek,Active,2025-07-12,The Last Bookmark,Samir Zohdy,Friendship,337,2017.0,Oasis Books
 9330,1072,513,2025-04-11,2025-05-09,Database,Seif,Zaki,9.0,Zamalek,Active,2025-10-21,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9178,1024,518,2025-08-21,2025-09-04,Database,Youssef,Hegazy,8.0,Nasr City,inactive,2024-01-04,The Ninth Lighthouse,Hani Nagati,Adventure,163,2011.0,Delta House
@@ -265,19 +265,19 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9367,1079,507,2024-03-19,2024-03-28,Database,Rana,Osman,8.0,Shubra,Active,2024-10-27,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9373,1079,508,2024-03-20,2024-04-19,Database,Rana,Osman,8.0,Shubra,Active,2024-10-27,The Quiet Observatory,Dalia Serry,Science,306,2011.0,Oasis Books
 9217,1047,530,2024-04-07,,Database,Sara,Rashad,,Heliopolis,Inactive,2024-06-25,The Sandstone Key,Sara Tantawy,Adventure,208,2012.0,Oasis Books
-9022,1010,507,2025-11-14,2025-12-03,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
+9022,1010,507,2025-11-14,2025-12-03,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9065,1016,509,2024-12-21,,Database,Dina,Rashad,8.0,Maadi,Active,2023-04-24,Marbles and Mirrors,Diaa Sultan,Mystery,221,2011.0,Nile Press
 9099,1018,506,2025-10-10,2025-11-09,Database,Ahmed,Shafik,9.0,Maadi,Active,2023-01-28,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
 9109,1034,512,2024-08-20,2024-09-14,Database,Aya,Wahba,9.0,Nasr City,Active,2025-01-22,The Cartographer's Cat,Farida Anwar,Adventure,238,2022.0,Delta House
 9086,1018,501,2024-06-20,2024-06-29,Database,Ahmed,Shafik,9.0,Maadi,Active,2023-01-28,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
-9089,1010,507,2025-06-22,2025-07-22,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
+9089,1010,507,2025-06-22,2025-07-22,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9230,1050,501,2025-09-10,2025-10-07,Database,Fares,Adel,6.0,Heliopolis,inactive,2025-09-10,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
-9062,1010,520,2024-07-28,2024-08-26,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,The Copper Telescope,Jasmine Wahdan,Science Fiction,136,2009.0,Oasis Books
+9062,1010,520,2024-07-28,2024-08-26,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,The Copper Telescope,Jasmine Wahdan,Science Fiction,136,2009.0,Oasis Books
 9076,1008,529,2025-12-12,2025-12-20,Database,Ziad,Saleh,8.0,Maadi,active,2025-10-28,Riddles of the Red Sea,Sara Tantawy,Mystery,298,,Cairo Young Readers
 9265,1049,513,2024-08-12,2024-09-10,Database,Ahmed,Gamal,6.0,Heliopolis,Active,2023-06-10,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9258,1050,529,2025-12-07,2025-12-21,Database,Fares,Adel,6.0,Heliopolis,inactive,2025-09-10,Riddles of the Red Sea,Sara Tantawy,Mystery,298,,Cairo Young Readers
 9203,1057,501,2025-10-25,,Database,Ahmed,Fahmy,8.0,Heliopolis,Active,2024-01-12,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
-9041,1010,506,2025-02-22,2025-03-19,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
+9041,1010,506,2025-02-22,2025-03-19,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
 9154,1030,525,2025-05-18,2025-05-26,Database,Reem,Osman,,Nasr City,Active,2025-04-01,Storms and Sailboats,Mahmoud Rafei,Adventure,297,2015.0,Oasis Books
 9285,1071,513,2025-02-24,,Database,Jana,Hegazy,8.0,Zamalek,Active,2024-09-27,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9121,1027,522,2025-02-24,2025-03-14,Database,Mostafa,Fouad,9.0,Nasr City,Active,2023-09-25,The Puzzle Merchant,Karim Elwy,Mystery,104,2016.0,Cairo Young Readers
@@ -317,13 +317,13 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 9242,1047,520,2025-06-01,2025-07-01,Database,Sara,Rashad,,Heliopolis,Inactive,2024-06-25,The Copper Telescope,Jasmine Wahdan,Science Fiction,136,2009.0,Oasis Books
 9204,1057,506,2024-02-20,2024-03-15,Database,Ahmed,Fahmy,8.0,Heliopolis,Active,2024-01-12,The Paper Boat Club,Aya Hafez,Friendship,183,,Nile Press
 9158,1040,513,2025-03-07,2025-03-24,Database,Dina,Adel,9.0,Nasr City,Active,2025-12-26,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
-9060,1010,527,2024-05-20,2024-05-28,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Notes from the Delta,Mona Kholoussy,Nature,328,2017.0,Delta House
+9060,1010,527,2024-05-20,2024-05-28,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Notes from the Delta,Mona Kholoussy,Nature,328,2017.0,Delta House
 9243,1060,513,2025-09-13,2025-10-09,Database,Layla,Wahba,7.0,Heliopolis,Active,2024-03-26,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
-9042,1010,509,2024-02-28,,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Marbles and Mirrors,Diaa Sultan,Mystery,221,2011.0,Nile Press
+9042,1010,509,2024-02-28,,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Marbles and Mirrors,Diaa Sultan,Mystery,221,2011.0,Nile Press
 9150,1024,507,2025-10-14,2025-10-24,Database,Youssef,Hegazy,8.0,Nasr City,inactive,2024-01-04,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9377,1034,507,2025-03-25,2025-04-06,Database,Aya,Wahba,9.0,Nasr City,Active,2025-01-22,Fossils and Fireflies,Dalia Serry,Science,160,2024.0,Nile Press
 9356,1076,501,2025-03-14,2025-04-13,Database,Dina,Wahba,7.0,Shubra,Active,2025-12-13,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press
-9014,1010,519,2024-06-28,2024-07-20,Database,Nour,Nabil,6.0,Maadi ,Active,2024-05-15,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
+9014,1010,519,2024-06-28,2024-07-20,Database,Nour,Nabil,6.0,Maadi,Active,2024-05-15,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9346,1076,519,2024-04-27,,Database,Dina,Wahba,7.0,Shubra,Active,2025-12-13,Kites Over Cairo,Jasmine Wahdan,Friendship,157,2014.0,Nile Press
 9103,1003,513,2025-09-04,2025-09-25,Database,Bassel,Hegazy,6.0,Maadi,Active,2025-04-23,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
 9246,1044,529,2025-06-25,2025-07-04,Database,Sherif,Saleh,7.0,Heliopolis,active,2024-02-19,Riddles of the Red Sea,Sara Tantawy,Mystery,298,,Cairo Young Readers
@@ -396,7 +396,7 @@ checkout_id,member_id,book_id,checkout_date,return_date,source,first_name,last_n
 ,1041,504,2025-07-05,,Reading Kickoff,Nada,Rashad,7.0,Nasr City,Active,2024-04-02,Rooftop Astronomers,Adel Roushdy,Science,319,2009.0,Cairo Young Readers
 ,1055,526,2025-07-11,,Reading Kickoff,Mostafa,Kamel,9.0,Heliopolis,Active,2025-01-04,The Clockwork Orchard,Mahmoud Rafei,Science Fiction,125,2016.0,Delta House
 ,1061,513,2025-07-06,,Reading Kickoff,Ziad,Fahmy,9.0,zamalek,Inactive,2023-04-27,Circuits for Beginners,Galal Mounir,Science,294,2021.0,Oasis Books
-,1012,509,2025-07-11,,Reading Kickoff,Ali,Hegazy,7.0,Maadi ,Active,2025-12-08,Marbles and Mirrors,Diaa Sultan,Mystery,221,2011.0,Nile Press
+,1012,509,2025-07-11,,Reading Kickoff,Ali,Hegazy,7.0,Maadi,Active,2025-12-08,Marbles and Mirrors,Diaa Sultan,Mystery,221,2011.0,Nile Press
 ,1007,510,2025-07-07,,Reading Kickoff,Sherif,Fouad,6.0,Maadi,Active,2025-08-18,The Missing Metronome,Diaa Sultan,Mystery,134,2013.0,Cairo Young Readers
 ,1073,530,2025-07-07,,Reading Kickoff,Yassin,Kamel,7.0,Zamalek,Inactive,2025-08-26,The Sandstone Key,Sara Tantawy,Adventure,208,2012.0,Oasis Books
 ,1003,501,2025-07-08,,Reading Kickoff,Bassel,Hegazy,6.0,Maadi,Active,2025-04-23,The Silver Kite,Amina Darwish,Adventure,128,2017.0,Nile Press

@@ -403,6 +403,9 @@ print(task2_data.isna().sum()[task2_data.isna().sum() > 0])
 print("\nExact duplicate rows remaining:",
       task2_data.duplicated().sum())
 
+# Strip trailing spaces from every string cell in the DataFrame
+task2_data = task2_data.applymap(lambda x: x.rstrip() if isinstance(x, str) else x)
+
 # Save the cleaned Task 2 dataset
 task2_data.to_csv(
     "output_data/task2_cleaned_data.csv",
