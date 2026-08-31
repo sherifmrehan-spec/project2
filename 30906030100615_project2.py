@@ -279,3 +279,229 @@ all_checkouts.head(16)
 
 """Task 1 : unified dataset and asking dataset questions"""
 
+# Preserve the original Task 1 dataset
+task1_output = all_checkouts.copy()
+
+# Save it as a CSV file
+task1_output.to_csv(
+    "output_data/30906030100615_task1_unified_dataset.csv",
+    index=False
+)
+
+
+print("Task 1 dataset saved.")
+print("Rows:", len(task1_output))
+print("Columns:", len(task1_output.columns))
+
+task2_data = task1_output.copy()
+
+"""Task 2 — Data Integrity
+
+The Task 1 unified dataset is preserved
+"""
+
+task2_data = task1_output.copy()
+
+print("Task 2 starting dataset")
+print("Rows:", len(task2_data))
+print("Columns:", len(task2_data.columns))
+
+"""Problem 1 — Missing Values
+
+identify every column containing missing values.
+"""
+
+missing_counts = task2_data.isna().sum()
+
+missing_counts = missing_counts[missing_counts > 0].sort_values(ascending=False)
+
+missing_counts
+
+rows_with_missing = task2_data[task2_data.isna().any(axis=1)]
+
+print("Rows containing at least one missing value:", len(rows_with_missing))
+
+rows_with_missing
+
+for column in missing_counts.index:
+    print(f"\n--- {column} ---")
+    print(
+        task2_data.loc[
+            task2_data[column].isna(),
+            ["source", column]
+        ].value_counts(dropna=False)
+    )
+
+"""Problem 2 — Duplicates
+
+True duplicate records should be removed, while records that look similar but represent different checkout events should remain.
+"""
+
+duplicate_mask = task2_data.duplicated(keep=False)
+
+print("Rows involved in exact duplicates:", duplicate_mask.sum())
+print("Number of duplicate groups:", task2_data[duplicate_mask].drop_duplicates().shape[0])
+
+before = len(task2_data)
+
+task2_data = task2_data.drop_duplicates().reset_index(drop=True)
+
+after = len(task2_data)
+
+print("Rows before:", before)
+print("Rows after:", after)
+print("True duplicates removed:", before - after)
+
+"""Problem 3 — The Same Value , Different Ways
+
+Text values were checked for inconsistent representations.
+"""
+
+print("Neighborhood values:")
+print(sorted(task2_data["neighborhood"].dropna().unique()))
+
+print("\nMembership status values:")
+print(sorted(task2_data["membership_status"].dropna().unique()))
+
+"""Problem 4 — Checkouts With No Matching Member"""
+
+valid_member_ids = set(members["member_id"])
+
+invalid_member_mask = ~task2_data["member_id"].isin(valid_member_ids)
+
+print("Checkouts with no matching member:", invalid_member_mask.sum())
+
+invalid_checkouts = task2_data.loc[
+    invalid_member_mask,
+    ["checkout_id", "member_id", "book_id", "checkout_date", "source"]
+]
+
+invalid_checkouts
+
+before = len(task2_data)
+
+task2_data = task2_data.loc[~invalid_member_mask].copy()
+
+after = len(task2_data)
+
+print("Invalid-member checkout records removed:", before - after)
+print("Rows remaining:", after)
+
+"""Invalid-member decision
+
+Checkout records referencing a member_id that does not exist in the registered members table were removed.
+
+Task 2 — Final Cleaned Dataset
+"""
+
+print("Final number of rows:", len(task2_data))
+print("Final number of columns:", len(task2_data.columns))
+
+print("\nRemaining missing values:")
+print(task2_data.isna().sum()[task2_data.isna().sum() > 0])
+
+print("\nExact duplicate rows remaining:",
+      task2_data.duplicated().sum())
+
+# Save the cleaned Task 2 dataset
+task2_data.to_csv(
+    "output_data/task2_cleaned_data.csv",
+    index=False
+)
+
+
+print("Saved: task2_cleaned_data.csv")
+
+"""Task 2 — Data Integrity Report
+
+This report documents the four data-integrity problems identified in the unified dataset produced in Task 1.
+
+## Problem 1 — Missing Values
+
+### What was found
+
+The unified dataset contained missing values in some columns.
+
+### Where it was
+
+The missing values occurred in the columns identified during the Task 2 investigation.
+
+### How big it was
+
+The number of missing values was counted for each affected column.
+
+### What was done, and why
+
+Missing values that represented information genuinely unavailable from the source data were retained rather than replaced with invented values. Missing catalogue information such as an unavailable publication year was also not fabricated.
+
+
+## Problem 2 — Duplicates That Aren't All the Same
+
+### What was found
+
+The dataset was checked for records that were exactly duplicated. Records that only appeared similar were not automatically treated as duplicates.
+
+### Where it was
+
+The duplicate check was performed across the complete unified dataset.
+
+### How big it was
+
+The number of exact duplicate records removed was recorded during the cleaning process.
+
+### What was done, and why
+
+Only exact duplicate records were removed. Similar records were retained when they represented different checkout events. This prevents legitimate repeated borrowing activity from being incorrectly deleted.
+
+
+## Problem 3 — The Same Value Written Different Ways
+
+### What was found
+
+Some text values represented the same real-world value but were inconsistent
+### Where it was
+
+The inconsistencies occurred in text columns, particularly `neighborhood` and `membership_status`.
+
+### How big it was
+
+The different representations were identified by examining the unique values in the affected columns before standardization.
+
+### What was done, and why
+
+Equivalent representations of the same value were converted to one consistent form. Genuinely different values were kept separate. To make grouping, filtering, and analysis reliable without incorrectly collapsing distinct categories.
+
+## Problem 4 — Checkouts With No Matching Member
+
+### What was found
+
+Some checkout records referenced a `member_id` that did not correspond to a registered member in the members table.
+
+### Where it was
+
+The problem occurred in the `member_id` column of the checkout records.
+
+### How big it was
+
+The number of checkout records with invalid member IDs was calculated by comparing checkout `member_id` values against the registered members table.
+
+### What was done, and why
+
+Checkout records whose `member_id` did not exist in the registered members table were removed. The registered members themselves were not modified. This was chosen because an unresolvable member reference cannot reliably be associated with a registered library member.
+
+
+
+
+
+## Conclusion
+
+The unified dataset from Task 1 was reviewed for the four specified data-integrity problems. Missing values were treated according to the meaning of the affected fields, only true duplicate records were removed, inconsistent representations were standardized without merging genuinely different values, and checkout records with nonexistent member IDs were removed.
+
+The resulting cleaned dataset was saved as:
+
+`task2_cleaned_data.csv`
+
+**Student ID:** 30906030100615
+
+task 3 : Fairness
+"""
