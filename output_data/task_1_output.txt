@@ -1,0 +1,9 @@
+Number of members: 80
+Members with zero checkouts: 18
+Books matching the pattern: 4
+Catalogue rows: 32
+Number of tables found: 1
+Database checkout records: 391
+Database checkouts: 391
+Reading Kickoff checkouts: 26
+Combined checkouts: 417
